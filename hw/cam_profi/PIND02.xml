@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Sun Sep 10 20:35:31 2023</date>
+    <date>Sun Sep 10 20:50:58 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>NAME</title>
-        <company>Mlab www.mlab.cz</company>
-        <rev>REV</rev>
+        <title>PIND02A</title>
+        <company>kaklik@mlab.cz</company>
+        <rev>A</rev>
         <date>%d. %m. %Y</date>
         <source>PIND02.kicad_sch</source>
-        <comment number="1" value="Short description \nTwo lines are maximum"/>
-        <comment number="2" value="nickname &lt;email@example.com&gt;"/>
+        <comment number="1" value="PIN diode semiconductor radiation \ndetector analogue front-end. "/>
+        <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
