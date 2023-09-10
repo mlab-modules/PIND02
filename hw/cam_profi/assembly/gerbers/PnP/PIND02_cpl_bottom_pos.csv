@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C1","10uF","C_0805_2012Metric",10.1600,10.1600,180.0000,bottom
+"C2","100nF","C_0805_2012Metric",10.1600,25.8500,180.0000,bottom
+"D1","BZV55C-5,6V","D_SMA",20.3200,16.3679,180.0000,bottom
