@@ -1,14 +1,12 @@
-description: Template repository
+description: 'PIN diode semiconductor radiation detector analogue front-end. '
 github_branch: MODUL01A
 github_branches:
 - MODUL01A
-github_repo: MODUL01
-github_url: https://github.com/mlab-modules/MODUL01
+github_repo: PIND02
+github_url: https://github.com/mlab-modules/PIND02
 homepage: false
 images: []
 issues: 2
 mark: 50
-tags:
-- mlab
-- mlab-module
-title: MODUL01
+tags: []
+title: PIND02
