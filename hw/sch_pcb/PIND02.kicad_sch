@@ -5,12 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "NAME")
+    (title "PIND02A")
     (date "%d. %m. %Y")
-    (rev "REV")
-    (company "Mlab www.mlab.cz")
-    (comment 1 "Short description \\nTwo lines are maximum")
-    (comment 2 "nickname <email@example.com>")
+    (rev "A")
+    (company "kaklik@mlab.cz")
+    (comment 1 "PIN diode semiconductor radiation \\ndetector analogue front-end. ")
   )
 
   (lib_symbols
@@ -1995,6 +1994,10 @@
     (stroke (width 0) (type default))
     (uuid 39497d5f-241f-407e-9a73-2a7b78f3afa0)
   )
+  (wire (pts (xy 41.91 22.86) (xy 45.72 22.86))
+    (stroke (width 0) (type default))
+    (uuid 3958e77b-3e70-40d8-b603-4c66c4123375)
+  )
   (wire (pts (xy 198.12 130.81) (xy 205.74 130.81))
     (stroke (width 0) (type solid))
     (uuid 3c814d7c-9835-4192-be23-51635b8404b0)
@@ -2678,6 +2681,31 @@
       (project "PIND02"
         (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 83.82 44.45 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 05ece845-3dc0-4e33-830b-bd11b21dd99a)
+    (property "Reference" "#FLG03" (at 81.915 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 80.6451 44.45 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 83.82 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ebcf8644-ae26-4af4-8cd7-482351208768))
+    (instances
+      (project "PIND02"
+        (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -5178,6 +5206,31 @@
       (project "PIND02"
         (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 45.72 22.86 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed64f06e-eed9-42e4-9012-27145f84d3a7)
+    (property "Reference" "#FLG02" (at 47.625 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 48.895 22.86 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 45.72 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 45.72 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 73cb1138-3d59-48ee-8b04-6cb3e2c84ac2))
+    (instances
+      (project "PIND02"
+        (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
