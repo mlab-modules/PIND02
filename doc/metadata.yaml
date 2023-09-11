@@ -11,11 +11,11 @@ images:
 - doc/gen/PIND02-schematic.svg
 - doc/gen/img/PIND02-top.svg
 - doc/gen/img/PIND02-bottom.svg
-- hw/cam_profi/assembly/PIND02-assembly_page_02.svg
-- hw/cam_profi/assembly/PIND02-assembly_page_01.svg
+- hw/cam_profi/docs/PIND02A-assembly_page_01.svg
+- hw/cam_profi/docs/PIND02A-assembly_page_02.svg
 issues: 2
 mark: 50
-mod_ibom: hw/cam_profi/PIND02-ibom.html
+mod_ibom: hw/cam_profi/ibom/PIND02-ibom.html
 mod_scheme: doc/gen/PIND02-schematic.pdf
 tags: []
 title: PIND02
