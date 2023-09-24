@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 40.13x40.13 mm (1.58x1.58 inches)
+Board size: 60.45x40.13 mm (2.38x1.58 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -51,8 +51,8 @@ Eurocircuits class: 4A
 
 Components count: (SMD/THT)
 
-- Top: 44/8 (SMD + THT)
-- Bottom: 3/0 (SMD)
+- Top: 1/7 (SMD + THT)
+- Bottom: 47/1 (SMD + THT)
 
 Defined tracks:
 

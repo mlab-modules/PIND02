@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.7-7.0.7~ubuntu23.04.1"
     },
-    "CreationDate": "2023-09-24T10:41:31+00:00"
+    "CreationDate": "2023-09-24T22:03:25+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 40.282,
+      "X": 60.602,
       "Y": 40.282
     },
     "LayerNumber": 2,
@@ -26,7 +26,9 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
     }
   ],
   "FilesAttributes": [

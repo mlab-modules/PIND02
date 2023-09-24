@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Sun Sep 24 10:42:16 2023</date>
+    <date>Sun Sep 24 22:03:58 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -55,12 +55,12 @@
     </comp>
     <comp ref="C3">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -70,27 +70,28 @@
     </comp>
     <comp ref="C4">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>513906cd-a5e7-41e4-90c7-287ce662322e</tstamps>
+      <tstamps>274e245b-2af6-4d63-bc7d-bc9b6e9bcae8</tstamps>
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="UST_ID">643f03ef76c82a1d3b576bed</field>
+        <field name="UST_ID">65082f52462c6d9e72054238</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f03ef76c82a1d3b576bed"/>
+      <property name="UST_ID" value="65082f52462c6d9e72054238"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -100,12 +101,12 @@
     </comp>
     <comp ref="C6">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -115,18 +116,19 @@
     </comp>
     <comp ref="C7">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>11c9624e-f740-4247-b165-3a1ba9817eaf</tstamps>
+      <tstamps>b67cac59-36ae-487d-a472-c094462f33c5</tstamps>
     </comp>
     <comp ref="C8">
       <value>1pF/NP0 251R15S1R0AV4E</value>
@@ -145,42 +147,44 @@
     </comp>
     <comp ref="C9">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e6e17322-520e-45b8-9920-f3d26c67ae87</tstamps>
+      <tstamps>b58847ac-9418-42c7-97c9-5b8fe5f4e8ed</tstamps>
     </comp>
     <comp ref="C10">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a503cb3f-fb1c-45c0-8ba2-9cd08b025fbe</tstamps>
+      <tstamps>438a0ec4-5c16-45e8-901a-9b83ae2560a4</tstamps>
     </comp>
     <comp ref="C11">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -190,12 +194,12 @@
     </comp>
     <comp ref="C12">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="UST_ID">643f03ef76c82a1d3b576bed</field>
+        <field name="UST_ID">65082f52462c6d9e72054238</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f03ef76c82a1d3b576bed"/>
+      <property name="UST_ID" value="65082f52462c6d9e72054238"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -205,12 +209,12 @@
     </comp>
     <comp ref="C13">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -220,12 +224,12 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -235,12 +239,12 @@
     </comp>
     <comp ref="C15">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="UST_ID">643f03ef76c82a1d3b576bed</field>
+        <field name="UST_ID">65082f52462c6d9e72054238</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="643f03ef76c82a1d3b576bed"/>
+      <property name="UST_ID" value="65082f52462c6d9e72054238"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -252,10 +256,10 @@
       <value>3n3</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">628d0fc8dc56076e9a223574</field>
+        <field name="UST_ID">6508354d462c6d9e7205425e</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="628d0fc8dc56076e9a223574"/>
+      <property name="UST_ID" value="6508354d462c6d9e7205425e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -309,12 +313,12 @@
     </comp>
     <comp ref="C20">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">6508260b462c6d9e720541f1</field>
       </fields>
       <libsource lib="SPACEDOS01A_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -350,29 +354,35 @@
     </comp>
     <comp ref="C23">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="SPACEDOS01A_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" description=""/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>68f92fdf-f88e-4a14-a839-31e08cd7fa1a</tstamps>
+      <tstamps>9c5cab15-d1ee-46db-959d-04470240809a</tstamps>
     </comp>
     <comp ref="C24">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf</datasheet>
       <fields>
-        <field name="UST_ID">643f075476c82a1d3b576c19</field>
+        <field name="UST_ID">65089dd0462c6d9e720542b3</field>
       </fields>
-      <libsource lib="SPACEDOS01A_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" description=""/>
-      <property name="UST_ID" value="643f075476c82a1d3b576c19"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65089dd0462c6d9e720542b3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>156c8017-8c4c-4c12-a170-7d9e505cd52c</tstamps>
+      <tstamps>3488af36-baa8-4189-ac2e-a5cb2c635200</tstamps>
     </comp>
     <comp ref="D1">
       <value>BZV55C-5,6V</value>
@@ -442,7 +452,7 @@
       <tstamps>5e3471a6-d69b-4b33-b1b7-402d302ca50f</tstamps>
     </comp>
     <comp ref="J2">
-      <value>HEADER_2x05_PARALLEL</value>
+      <value>MLAB I2C interface</value>
       <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
@@ -558,6 +568,23 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
+    <comp ref="M5">
+      <value>RFShield_TwoPieces</value>
+      <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
+      <fields>
+        <field name="UST_ID">5c72751c1287500b4e11301a</field>
+        <field name="UST_ID2">5c7275631287500b4e11302f</field>
+      </fields>
+      <libsource lib="Device" part="RFShield_TwoPieces" description="Two-piece EMI RF shielding cabinet"/>
+      <property name="UST_ID" value="5c72751c1287500b4e11301a"/>
+      <property name="UST_ID2" value="5c7275631287500b4e11302f"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIND02.kicad_sch"/>
+      <property name="ki_description" value="Two-piece EMI RF shielding cabinet"/>
+      <property name="ki_keywords" value="RF EMI shielding cabinet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b31ab17-b225-4cb1-b8bc-f1894ded0c94</tstamps>
+    </comp>
     <comp ref="Q1">
       <value>2SK2394-6</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
@@ -620,12 +647,12 @@
     </comp>
     <comp ref="R4">
       <value>10M</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b6d</field>
+        <field name="UST_ID">5c70984712875079b91f8aae</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b6d"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aae"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -710,12 +737,12 @@
     </comp>
     <comp ref="R10">
       <value>4k7</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8960</field>
+        <field name="UST_ID">5c70984612875079b91f8995</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8960"/>
+      <property name="UST_ID" value="5c70984612875079b91f8995"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -740,7 +767,7 @@
     </comp>
     <comp ref="R12">
       <value>100</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8977</field>
       </fields>
@@ -874,6 +901,22 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="D_Photo">
       <description>Photodiode</description>
       <docs>~</docs>
@@ -958,6 +1001,18 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RFShield_TwoPieces">
+      <description>Two-piece EMI RF shielding cabinet</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RFShield_TwoPieces</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue">
@@ -1208,23 +1263,13 @@
     </net>
     <net code="5" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J2" pin="1" pintype="input"/>
@@ -1236,114 +1281,127 @@
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="M5" pin="1" pinfunction="Shield" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="R" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="VSS" pintype="power_in"/>
       <node ref="U3" pin="9" pinfunction="VSS" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="6" name="Net-(C9-Pad1)">
+    <net code="6" name="GNDA">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(C9-Pad1)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(C10-Pad1)">
+    <net code="8" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C12-Pad1)">
+    <net code="9" name="Net-(C12-Pad1)">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(C13-Pad2)">
+    <net code="10" name="Net-(C13-Pad2)">
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
     </net>
-    <net code="10" name="Net-(C14-Pad2)">
+    <net code="11" name="Net-(C14-Pad2)">
       <node ref="C14" pin="2" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
-    <net code="11" name="Net-(C21-Pad1)">
+    <net code="12" name="Net-(C21-Pad1)">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(J1-In)">
+    <net code="13" name="Net-(J1-In)">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(J3-Pad2)">
+    <net code="14" name="Net-(J3-Pad2)">
       <node ref="J3" pin="2" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(JP1-C)">
+    <net code="15" name="Net-(JP1-C)">
       <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="ADDR" pintype="input"/>
     </net>
-    <net code="15" name="Net-(L3-Pad1)">
+    <net code="16" name="Net-(L3-Pad1)">
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(Q1-D)">
+    <net code="17" name="Net-(Q1-D)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(Q1-S)">
+    <net code="18" name="Net-(Q1-S)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(U1B-+)">
+    <net code="19" name="Net-(U1B-+)">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="19" name="Net-(U1B--)">
+    <net code="20" name="Net-(U1B--)">
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="20" name="Net-(U1B-V+)">
+    <net code="21" name="Net-(U1B-V+)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="21" name="Net-(U3-SCL)">
+    <net code="22" name="Net-(U3-SCL)">
       <node ref="J2" pin="7" pintype="input"/>
       <node ref="J2" pin="8" pintype="input"/>
       <node ref="U3" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="22" name="Net-(U3-SDA)">
+    <net code="23" name="Net-(U3-SDA)">
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="J2" pin="4" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="23" name="Net-(U4-SW)">
+    <net code="24" name="Net-(U4-SW)">
       <node ref="L2" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="SW" pintype="power_in"/>
     </net>
-    <net code="24" name="Net-(U4-VOUT)">
+    <net code="25" name="Net-(U4-VOUT)">
       <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="25" name="VDD">
+    <net code="26" name="VDD">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
@@ -1359,16 +1417,16 @@
       <node ref="U2" pin="1" pinfunction="Vin" pintype="power_in"/>
       <node ref="U3" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="26" name="unconnected-(U3-ALERT-Pad3)">
+    <net code="27" name="unconnected-(U3-ALERT-Pad3)">
       <node ref="U3" pin="3" pinfunction="ALERT" pintype="output+no_connect"/>
     </net>
-    <net code="27" name="unconnected-(U3-~{RESET}-Pad6)">
+    <net code="28" name="unconnected-(U3-~{RESET}-Pad6)">
       <node ref="U3" pin="6" pinfunction="~{RESET}" pintype="input+no_connect"/>
     </net>
-    <net code="28" name="unconnected-(U4-NC-Pad3)">
+    <net code="29" name="unconnected-(U4-NC-Pad3)">
       <node ref="U4" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="29" name="unconnected-(U4-NC-Pad5)">
+    <net code="30" name="unconnected-(U4-NC-Pad5)">
       <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
