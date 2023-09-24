@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Mon Sep 11 01:13:35 2023</date>
+    <date>Sun Sep 24 10:42:16 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -405,6 +405,7 @@
     </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
@@ -415,6 +416,7 @@
     </comp>
     <comp ref="FID2">
       <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
@@ -425,8 +427,13 @@
     </comp>
     <comp ref="J1">
       <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
       <datasheet> ~</datasheet>
+      <fields>
+        <field name="UST_ID">5fa10cc512875025b39779f6</field>
+      </fields>
       <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="UST_ID" value="5fa10cc512875025b39779f6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
@@ -436,6 +443,7 @@
     </comp>
     <comp ref="J2">
       <value>HEADER_2x05_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
@@ -446,7 +454,9 @@
     </comp>
     <comp ref="J3">
       <value>HEADER_2x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01" description="2x01 2.54 mm pitch header"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="2x01 2.54 mm pitch header"/>
@@ -456,7 +466,9 @@
     </comp>
     <comp ref="JP1">
       <value>Address select</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
@@ -496,7 +508,13 @@
     </comp>
     <comp ref="L3">
       <value>L</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.tme.eu/Document/a05ae3504cfc60ed89e3a57fb94acf5e/VIKING-NL.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">626fd6fcdc56076e9a222966</field>
+      </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="UST_ID" value="626fd6fcdc56076e9a222966"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
