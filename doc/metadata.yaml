@@ -9,8 +9,8 @@ images:
 - doc/gen/img/PIND02-bottom.png
 - doc/gen/img/PIND02-top.png
 - doc/gen/PIND02-schematic.svg
-- doc/gen/img/PIND02-top.svg
 - doc/gen/img/PIND02-bottom.svg
+- doc/gen/img/PIND02-top.svg
 - hw/cam_profi/docs/PIND02A-assembly_page_01.svg
 - hw/cam_profi/docs/PIND02A-assembly_page_02.svg
 issues: 2
