@@ -56,7 +56,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|127903000|109181000|370661e1-dfb5-483e-9f98-243ad193f061|e478763e-94ea-4155-a4ed-e1266fa9120e",
+        "clearance|128595000|99811000|3cc62f00-f4a4-409b-97ee-ba4531d3bb15|ae9ca816-34dd-4f0a-9d3f-31b3d379787c",
+        "clearance|128853000|109181000|a9fa0766-7ca2-4f67-83ee-eeab81bbbdde|370661e1-dfb5-483e-9f98-243ad193f061",
+        "clearance|129645000|98311000|ae9ca816-34dd-4f0a-9d3f-31b3d379787c|4c8f9026-ba38-4cce-948d-63afba75f627",
+        "clearance|147600000|87012000|0524c3e2-c189-47f3-b868-92916efbdd74|fa752120-9a1d-47de-82f0-f80a418e1e5d"
+      ],
       "meta": {
         "version": 2
       },
@@ -485,7 +491,7 @@
     "netclass_patterns": [
       {
         "netclass": "MLAB_power",
-        "pattern": "*GND*"
+        "pattern": "*GND"
       },
       {
         "netclass": "MLAB_power",
