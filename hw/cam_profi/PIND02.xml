@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Tue Sep 26 09:52:20 2023</date>
+    <date>Tue Sep 26 19:51:48 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -42,12 +42,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="UST_id">C0805_100n</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value="C0805_100n"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -385,13 +383,13 @@
       <tstamps>3488af36-baa8-4189-ac2e-a5cb2c635200</tstamps>
     </comp>
     <comp ref="D1">
-      <value>BZV55C-5,6V</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
+      <value>BZV55C-6,2V</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88b2</field>
+        <field name="UST_ID">604b0326128750769e5b0f93</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f88b2"/>
+      <property name="UST_ID" value="604b0326128750769e5b0f93"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
