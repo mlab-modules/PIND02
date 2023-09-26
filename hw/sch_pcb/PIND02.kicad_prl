@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 41,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -16,7 +16,7 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
       "graphics": false,
       "keepouts": false,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "0001020_ffffffff",
+    "visible_layers": "0001220_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
