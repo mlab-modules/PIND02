@@ -3338,7 +3338,7 @@
     (property "Datasheet" "https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf" (at 41.91 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "" (at 41.91 41.91 0)
+    (property "UST_ID" "5c70984612875079b91f89e4" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0bfd6197-9351-429e-a9a0-ff004a4307f8))
