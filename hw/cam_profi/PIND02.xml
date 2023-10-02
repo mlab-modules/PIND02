@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Wed Sep 27 14:10:09 2023</date>
+    <date>Mon Oct  2 10:09:08 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -826,8 +826,11 @@
       <value>SHT31-DIS</value>
       <footprint>Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm</footprint>
       <datasheet>https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f89e4</field>
+      </fields>
       <libsource lib="Sensor_Humidity" part="SHT31-DIS" description="I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f89e4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8"/>
