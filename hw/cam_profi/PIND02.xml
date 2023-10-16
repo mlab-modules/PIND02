@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Wed Oct  4 13:33:38 2023</date>
+    <date>Mon Oct 16 18:06:06 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -746,13 +746,10 @@
       <tstamps>bdd07e90-deb4-4803-9678-9613b6e1d523</tstamps>
     </comp>
     <comp ref="R10">
-      <value>4k7</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="UST_ID">5c70984612875079b91f8995</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984612875079b91f8995"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PIND02.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
