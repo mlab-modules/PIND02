@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PIND02.kicad_sch</source>
-    <date>Mon Oct 16 18:06:06 2023</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <date>Sun Nov 12 17:30:50 2023</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PIND02A</title>
@@ -598,6 +598,7 @@
     <comp ref="Q1">
       <value>2SK2394-6</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1/2SK2394_D-3150134.pdf</datasheet>
       <fields>
         <field name="UST_ID">628d134fdc56076e9a223625</field>
       </fields>
