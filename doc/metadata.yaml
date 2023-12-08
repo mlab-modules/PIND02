@@ -7,8 +7,8 @@ github_url: https://github.com/mlab-modules/PIND02
 homepage: false
 images:
 - doc/src/img/PIND02_top_big.jpg
-- doc/gen/img/PIND02-top.png
 - doc/gen/img/PIND02-bottom.png
+- doc/gen/img/PIND02-top.png
 - hw/cam_profi/docs/PIND02A-assembly_page_02.svg
 - hw/cam_profi/docs/PIND02A-assembly_page_01.svg
 - doc/gen/PIND02-schematic.svg
