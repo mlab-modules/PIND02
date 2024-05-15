@@ -19,6 +19,9 @@ mark: 50
 mod_ibom: hw/cam_profi/ibom/PIND02-ibom.html
 mod_scheme: doc/gen/PIND02-schematic.pdf
 status: 2
-tags: []
+tags:
+- cosmic-rays
+- semiconductor-detector
+- ionizing-radiation
 title: PIND02
 updated: '2023-09-10T20:51:54.436543+00:00'
