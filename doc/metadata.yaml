@@ -4,7 +4,7 @@ github_branches:
 - MODUL01A
 github_repo: PIND02
 github_url: https://github.com/mlab-modules/PIND02
-homepage: false
+homepage: true
 images:
 - doc/src/img/PIND02_top_big.jpg
 - doc/gen/img/PIND02-bottom.png
