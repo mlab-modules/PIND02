@@ -1,4 +1,4 @@
-description: 'PIN diode semiconductor radiation detector analogue front-end. '
+description: 'PIN diode semiconductor radiation detector analog front-end. '
 github_branch: PIND02A
 github_branches:
 - MODUL01A
@@ -12,8 +12,8 @@ images:
 - hw/cam_profi/docs/PIND02A-assembly_page_02.svg
 - hw/cam_profi/docs/PIND02A-assembly_page_01.svg
 - doc/gen/PIND02-schematic.svg
-- doc/gen/img/PIND02-bottom.svg
 - doc/gen/img/PIND02-top.svg
+- doc/gen/img/PIND02-bottom.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/ibom/PIND02-ibom.html
